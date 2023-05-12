@@ -1,0 +1,19 @@
+@media screen and (min-width: 1200px) {
+  .tournament-brackets {
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: default;
+  }
+}
+
+.tournament-brackets {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: default;
+  align-items: center;
+
+  .brackets-section {
+    margin: 10px;
+  }
+}

@@ -1,0 +1,53 @@
+@import "../variables";
+
+.conflict {
+  width: 80vw;
+  background-color: $level-one-boxes-color;
+  padding: 0.5rem;
+  max-width: 28.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  border: $level-one-boxes-border;
+
+  .teams {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .text {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.vertical {
+  max-width: 18rem;
+
+  .teams {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .vertical {
+    max-width: 25rem;
+  }
+  .conflict {
+    width: 76vw;
+    max-width: 42.7rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .conflict {
+    width: 33.5vw;
+    max-width: 30.65rem;
+  }
+
+  .vertical {
+    width: 16.5vw;
+    max-width: 15.4rem;
+  }
+}
