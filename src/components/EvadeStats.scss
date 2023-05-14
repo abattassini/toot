@@ -1,0 +1,13 @@
+@import "../variables";
+
+.evade-stats {
+  border: $level-one-boxes-border;
+  margin-inline-start: 20px;
+  margin-inline-end: 20px;
+  display: flex;
+  flex-direction: column;
+
+  div {
+    text-align: center;
+  }
+}

@@ -1,0 +1,35 @@
+@import "../variables";
+
+.innates {
+  border: $level-one-boxes-border;
+  margin-inline-start: 20px;
+  margin-inline-end: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  font-size: 1.3rem;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin: 2px;
+
+    div {
+      width: 50px;
+      img {
+        width: 25px;
+      }
+
+      .active-img,
+      .react-img {
+        width: 19.5px;
+      }
+    }
+    span {
+      margin-left: 8px;
+    }
+  }
+}

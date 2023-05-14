@@ -1,0 +1,30 @@
+@import "../variables";
+
+.unit {
+  border: $level-one-boxes-border;
+
+  .basic-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .unit {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .unit {
+    width: 22vw;
+    max-width: 23.5rem;
+  }
+}

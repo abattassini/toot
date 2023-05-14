@@ -1,0 +1,38 @@
+@import "../variables";
+
+.team {
+  border: $level-one-boxes-border;
+}
+
+@media screen and (min-width: 700px) {
+  .team-units {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    padding: 15px;
+    grid-gap: 10px 20px;
+  }
+
+  .unit {
+    margin-bottom: 10px;
+  }
+
+  .team {
+    width: 90vw;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .team-units {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+  }
+
+  .team {
+    width: 97vw;
+    max-width: 1700px;
+  }
+}
