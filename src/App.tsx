@@ -1,7 +1,6 @@
 import "./App.css";
 import { Team } from "./components/Team";
 import { TournamentBrackets } from "./components/TournamentBrackets";
-import { Unit } from "./components/Unit";
 
 function App() {
   return (

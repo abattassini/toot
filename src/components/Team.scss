@@ -2,6 +2,11 @@
 
 .team {
   border: $level-one-boxes-border;
+  width: 95vw;
+}
+
+.unit {
+  margin: 20px;
 }
 
 @media screen and (min-width: 700px) {
@@ -12,10 +17,6 @@
     justify-items: center;
     padding: 15px;
     grid-gap: 10px 20px;
-  }
-
-  .unit {
-    margin-bottom: 10px;
   }
 
   .team {
@@ -29,6 +30,10 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     justify-items: center;
+  }
+
+  .unit {
+    margin: 0px;
   }
 
   .team {
